@@ -15,7 +15,7 @@ describe('the Aurelia configuration', () => {
   });
 
   it('should register a global resource', () => {
-    expect(mockedConfiguration.resources).toContain('./localstorage');
+    expect(mockedConfiguration.resources).toContain('./local-storage-provider');
   });
 
 });

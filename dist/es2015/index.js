@@ -1,3 +1,3 @@
 export function configure(config) {
-  config.globalResources('./localstorage');
+  config.globalResources('./local-storage-provider');
 }

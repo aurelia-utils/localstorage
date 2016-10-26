@@ -6,6 +6,6 @@ define(['exports'], function (exports) {
   });
   exports.configure = configure;
   function configure(config) {
-    config.globalResources('./localstorage');
+    config.globalResources('./local-storage-provider');
   }
 });
