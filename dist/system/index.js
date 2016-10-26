@@ -4,7 +4,7 @@ System.register([], function (_export, _context) {
   "use strict";
 
   function configure(config) {
-    config.globalResources('./hello-world');
+    config.globalResources('./localstorage');
   }
 
   _export('configure', configure);
