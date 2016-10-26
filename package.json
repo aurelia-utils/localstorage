@@ -1,22 +1,21 @@
 {
-  "name": "aurelia-skeleton-plugin",
+  "name": "aurelia-local-storage",
   "version": "1.0.0",
-  "description": "A starter kit for building an Aurelia plugin.",
+  "description": "HTML5 LocalStorage Wrapper with prefix for Aurelia",
   "keywords": [
     "aurelia",
-    "plugin",
-    "skeleton"
+    "localStorage"
   ],
-  "homepage": "http://aurelia.io",
+  "homepage": "https://github.com/aurelia-utils/localstorage/blob/master/README.md",
   "bugs": {
-    "url": "https://github.com/aurelia/skeleton-plugin/issues"
+    "url": "https://github.com/aurelia-utils/localstorage/issues"
   },
   "license": "CC0-1.0",
-  "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
+  "author": "Jishnu Viswanath <aurelia-utils@jishnu.me> (http://jishnu.me/)",
   "main": "dist/commonjs/index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/aurelia/skeleton-plugin"
+    "url": "https://github.com/aurelia-utils/localstorage"
   },
   "devDependencies": {
     "aurelia-tools": "^0.2.4",
