@@ -6,28 +6,28 @@ Object.defineProperty(exports, "__esModule", {
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var LocalStorageProivder = exports.LocalStorageProivder = function () {
-  function LocalStorageProivder() {
+var LocalStorageProvider = exports.LocalStorageProvider = function () {
+  function LocalStorageProvider() {
     var prefix = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
 
-    _classCallCheck(this, LocalStorageProivder);
+    _classCallCheck(this, LocalStorageProvider);
 
     this.prefix = prefix;
   }
 
-  LocalStorageProivder.prototype.setPrefix = function setPrefix() {
+  LocalStorageProvider.prototype.setPrefix = function setPrefix() {
     var prefix = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
 
     this.prefix = prefix + '.';
   };
 
-  LocalStorageProivder.prototype.get = function get(name) {
+  LocalStorageProvider.prototype.get = function get(name) {
     return localStorage.getItem(this.prefix + name);
   };
 
-  LocalStorageProivder.prototype.set = function set(name, value) {
+  LocalStorageProvider.prototype.set = function set(name, value) {
     localStorage.setItem(this.prefix + name, value);
   };
 
-  return LocalStorageProivder;
+  return LocalStorageProvider;
 }();

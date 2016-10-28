@@ -6,6 +6,6 @@ define(['exports'], function (exports) {
   });
   exports.configure = configure;
   function configure(config) {
-    config.globalResources('./local-storage-provider');
+    config.globalResources('./aurelia-local-storage');
   }
 });

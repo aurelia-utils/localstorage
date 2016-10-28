@@ -3,7 +3,7 @@
 System.register([], function (_export, _context) {
   "use strict";
 
-  var LocalStorageProivder;
+  var LocalStorageProvider;
 
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
@@ -14,33 +14,33 @@ System.register([], function (_export, _context) {
   return {
     setters: [],
     execute: function () {
-      _export('LocalStorageProivder', LocalStorageProivder = function () {
-        function LocalStorageProivder() {
+      _export('LocalStorageProvider', LocalStorageProvider = function () {
+        function LocalStorageProvider() {
           var prefix = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
 
-          _classCallCheck(this, LocalStorageProivder);
+          _classCallCheck(this, LocalStorageProvider);
 
           this.prefix = prefix;
         }
 
-        LocalStorageProivder.prototype.setPrefix = function setPrefix() {
+        LocalStorageProvider.prototype.setPrefix = function setPrefix() {
           var prefix = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
 
           this.prefix = prefix + '.';
         };
 
-        LocalStorageProivder.prototype.get = function get(name) {
+        LocalStorageProvider.prototype.get = function get(name) {
           return localStorage.getItem(this.prefix + name);
         };
 
-        LocalStorageProivder.prototype.set = function set(name, value) {
+        LocalStorageProvider.prototype.set = function set(name, value) {
           localStorage.setItem(this.prefix + name, value);
         };
 
-        return LocalStorageProivder;
+        return LocalStorageProvider;
       }());
 
-      _export('LocalStorageProivder', LocalStorageProivder);
+      _export('LocalStorageProvider', LocalStorageProvider);
     }
   };
 });

@@ -1,4 +1,4 @@
-export class LocalStorageProivder {
+export class LocalStorageProvider {
   constructor(prefix = '') {
     this.prefix = prefix;
   }

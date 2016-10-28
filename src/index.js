@@ -1,3 +1,3 @@
 export function configure(config) {
-  config.globalResources('./local-storage-provider');
+  config.globalResources('./aurelia-local-storage');
 }

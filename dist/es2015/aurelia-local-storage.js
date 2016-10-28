@@ -1,4 +1,4 @@
-export let LocalStorageProivder = class LocalStorageProivder {
+export let LocalStorageProvider = class LocalStorageProvider {
   constructor(prefix = '') {
     this.prefix = prefix;
   }
